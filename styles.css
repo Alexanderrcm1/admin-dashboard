@@ -24,6 +24,24 @@ li {
 }
 .header {
     background-color: blueviolet;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.first-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.top-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.second-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .main-content{
     background-color: orange;
