@@ -33,8 +33,13 @@ li {
     grid-template-columns: 2fr 1fr;
 }
 .top-right {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.user-name {
+    font-weight: bold;
 }
 .second-row {
     display: grid;
@@ -128,4 +133,11 @@ li {
 }
 .search {
     margin: 20px;
+}
+
+.lupin-small {
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;
+    margin: 0 30px 0 10px;
 }
