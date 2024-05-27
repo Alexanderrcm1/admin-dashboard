@@ -67,8 +67,11 @@ li {
     border: 1px solid black;
     height: 200px;
     gap: 15px;
-    border-left: 8px solid #075985;
     text-align: start;
+    background-color: white;
+    border: white;
+    border-left: 8px solid #075985;
+    border-radius: 8px;
 }
 
 .card p {
@@ -85,7 +88,8 @@ li {
 .communities,
 .settings,
 .support,
-.privacy {
+.privacy,
+.logo {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -95,11 +99,16 @@ li {
     margin-bottom: 50px;
 }
 .logo {
-    margin-bottom: 40px;
+    margin: 10px 50px 30px 10px;
 }
 
 .icon {
     width: 20px;
     fill: white;
-    margin: 10px;
+    margin: 10px 20px 10px 20px;
+}
+
+.dashboard {
+    width: 50px;
+    margin-right: 10px;
 }
