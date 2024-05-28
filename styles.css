@@ -54,8 +54,8 @@ li {
 .main-content{
     background-color: #f3f4f6;
     grid-column: 2 / 3;
-    display: grid;
     gap: 25px;
+    border-top: 5px solid #f1efef;
 }
 .main-container {
     display: grid;
@@ -72,7 +72,7 @@ li {
 }
 .card {
     border: 1px solid black;
-    height: 200px;
+    width: 100%;
     background-color: white;
     border: white;
     border-left: 8px solid rgba(255, 192, 203, 0.498);
@@ -135,10 +135,10 @@ li {
 
 .star,
 .eye,
-.share {
+.share-icon {
     width: 20px;
     fill: white;
-    margin: 30px 20px 0px 0px;
+    margin: 30px 20px 20px 0px;
 }
 
 .dashboard {
@@ -194,3 +194,65 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+.yp {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 30px 300px 0px 20px;
+    text-wrap: nowrap;
+
+}
+
+.share-icon {
+    transform: rotate(270deg);
+}
+
+.right-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.announcements {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+}
+
+.rp1,
+.rp2,
+.rp3 {
+    font-size: 12px;
+}
+
+.rp1,
+.rp2 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid pink;
+    color: grey;
+}
+
+
+
+.right-title {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.ba {
+    margin: 30px 85px 0px 400px;
+    flex: none;
+}
+
+.main-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: none;
+}
+
