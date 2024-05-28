@@ -2,11 +2,13 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    font-family: sans-serif;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    
-
 }
 .container div {
     font-size: 24px;
@@ -18,10 +20,16 @@
     display: grid;
     gap: 20px;
 }
+
 li {
     font-size: 18px;
     list-style: none;
     color: black;
+}
+
+li:hover {
+    cursor: pointer;
+    font-size: 20px;
 }
 .header {
     background-color: white;
@@ -40,11 +48,26 @@ li {
 }
 .user-name {
     font-weight: bold;
+    font-family: "oswald", sans-serif;
 }
+
+
 .second-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.greeting {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 3px;
+}
+
+.profile-name {
+    font-family: "oswald", sans-serif;
+    font-weight: 500;
+}
+
 .buttons {
     display: flex;
     justify-content: end;
@@ -65,7 +88,7 @@ li {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 25px;
     margin: 20px;
     
@@ -93,6 +116,7 @@ li {
     font-size: 18px;
     color: black;
     margin: 20px 20px 0px 20px;
+    font-family: "oswald", sans-serif;
 }
 
 .card-options {
@@ -151,6 +175,10 @@ li {
     margin: 10px 15px 0 10px;
 }
 
+.search-icon:hover {
+    cursor: pointer;
+}
+
 #search-bar {
     width: 40vw;
     height: 30px;
@@ -168,6 +196,7 @@ li {
     border-radius: 50%;
     margin: 0 30px 0 10px;
 }
+
 .lupin-big {
     width: 70px;
     height: 60px;
@@ -189,10 +218,12 @@ button {
     font-size: 1vw;
     font-weight: 500;
     color: black;
+    font-family: "oswald";
 }
 
 button:hover {
     cursor: pointer;
+    background-color: rgb(227, 191, 197);
 }
 
 .yp {
@@ -228,13 +259,13 @@ button:hover {
 .rp2,
 .rp3 {
     font-size: 12px;
+    color: grey;
 }
 
 .rp1,
 .rp2 {
     padding-bottom: 15px;
     border-bottom: 1px solid pink;
-    color: grey;
 }
 
 
@@ -242,11 +273,13 @@ button:hover {
 .right-title {
     font-size: 18px;
     margin-top: 15px;
+    font-family: "oswald", sans-serif;
 }
 
 .ba {
-    margin: 30px 85px 0px 400px;
+    margin: 30px 120px 0px 400px;
     flex: none;
+    font-size: 20px;
 }
 
 .main-titles {
@@ -264,10 +297,13 @@ button:hover {
     gap: 20px;
     padding: 20px;
     border-radius: 15px;
+    margin-bottom: 20px;
+    align-items: center;
 }
 
 .trending-container h6 {
     font-size: 14px;
+    font-family: "oswald", sans-serif;
 }
 
 .trending-container p {
@@ -280,3 +316,49 @@ button:hover {
     width: 50px;
     border-radius: 50%;
 }
+
+.trending-title {
+    margin: 40px 0 10px 0;
+    font-size: 22px;
+}
+
+.eye:hover {
+    cursor: pointer;
+}
+
+.star:hover {
+    cursor: pointer;
+}
+
+.share-icon:hover {
+    cursor: pointer;
+}
+
+.right-title:hover {
+    cursor: pointer;
+}
+
+.lupin-middle:hover {
+    cursor: pointer;
+}
+
+.lupin-small:hover {
+    cursor: pointer;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.user-name:hover {
+    cursor: pointer;
+}
+
+.lupin-big:hover {
+    cursor: pointer;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
