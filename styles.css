@@ -73,18 +73,35 @@ li {
 .card {
     border: 1px solid black;
     height: 200px;
-    gap: 15px;
-    text-align: start;
     background-color: white;
     border: white;
     border-left: 8px solid rgba(255, 192, 203, 0.498);
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card p {
     font-size: 18px;
     color: black;
-    margin: 10px;
+    margin: 0px 20px 0px 20px;
+    color: grey;
+}
+
+.title {
+    font-size: 18px;
+    color: black;
+    margin: 20px 20px 0px 20px;
+}
+
+.card-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    margin: 0;
+    padding: 0;
 }
 
 .home,
@@ -114,6 +131,14 @@ li {
     width: 20px;
     fill: white;
     margin: 10px 20px 10px 20px;
+}
+
+.star,
+.eye,
+.share {
+    width: 20px;
+    fill: white;
+    margin: 30px 20px 0px 0px;
 }
 
 .dashboard {
