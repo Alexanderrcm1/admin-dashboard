@@ -256,3 +256,27 @@ button:hover {
     flex: none;
 }
 
+.trending-container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.trending-container h6 {
+    font-size: 14px;
+}
+
+.trending-container p {
+    font-size: 14px;
+    color: grey;
+}
+
+.lupin-middle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
